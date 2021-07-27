@@ -11,5 +11,5 @@ keywords = ["leptonica", "image"]
 license = "MIT"
 
 [dependencies]
-leptonica-sys = "0.3.4"
+leptonica-sys = { git = "https://github.com/ntoskrnl7/leptonica-sys" }
 thiserror = "1.0"
