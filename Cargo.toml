@@ -13,3 +13,7 @@ license = "MIT"
 [dependencies]
 leptonica-sys = { git = "https://github.com/ntoskrnl7/leptonica-sys" }
 thiserror = "1.0"
+
+[features]
+default = []
+enable-static = [ "leptonica-sys/enable-static" ]
